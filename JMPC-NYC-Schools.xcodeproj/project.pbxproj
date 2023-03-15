@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A32D64D581525F3FABB6DA /* Pods_JMPC_NYC_Schools_JMPC_NYC_SchoolsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB90FCA203279D0E4AC94F9 /* Pods_JMPC_NYC_Schools_JMPC_NYC_SchoolsUITests.framework */; };
+		1B7EA9A78A0F2EB39EA745DF /* Pods_JMPC_NYC_Schools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D1C1140F6120A0C9C33654 /* Pods_JMPC_NYC_Schools.framework */; };
 		283A5C8B29C1047E00EA5B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A5C8A29C1047E00EA5B3B /* AppDelegate.swift */; };
 		283A5C8D29C1047E00EA5B3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A5C8C29C1047E00EA5B3B /* SceneDelegate.swift */; };
 		283A5C8F29C1047E00EA5B3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A5C8E29C1047E00EA5B3B /* ViewController.swift */; };
@@ -16,6 +18,17 @@
 		283A5C9A29C1048100EA5B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283A5C9829C1048100EA5B3B /* LaunchScreen.storyboard */; };
 		283A5CA529C1048200EA5B3B /* JMPC_NYC_SchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A5CA429C1048200EA5B3B /* JMPC_NYC_SchoolsTests.swift */; };
 		283A5CB029C1048200EA5B3B /* JMPC_NYC_SchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A5CAF29C1048200EA5B3B /* JMPC_NYC_SchoolsUITests.swift */; };
+		283A5CC529C1053F00EA5B3B /* RequestsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A5CC429C1053F00EA5B3B /* RequestsManager.swift */; };
+		283A5CCA29C105D700EA5B3B /* HighSchoolData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A5CC929C105D700EA5B3B /* HighSchoolData.swift */; };
+		283A5CCF29C1072100EA5B3B /* MainFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A5CCE29C1072100EA5B3B /* MainFeedViewModel.swift */; };
+		283A5CF929C1290800EA5B3B /* SchoolInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A5CF829C1290800EA5B3B /* SchoolInfoTableViewCell.swift */; };
+		283A5D0529C12DA000EA5B3B /* HighSchoolDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A5D0429C12DA000EA5B3B /* HighSchoolDetailViewController.swift */; };
+		283A5D0A29C1322C00EA5B3B /* HighSchoolDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A5D0929C1322C00EA5B3B /* HighSchoolDetailViewModel.swift */; };
+		283A5D0F29C132DA00EA5B3B /* HighSchoolDetailRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A5D0E29C132DA00EA5B3B /* HighSchoolDetailRecord.swift */; };
+		283A5D1429C138D000EA5B3B /* HighSchoolDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A5D1329C138D000EA5B3B /* HighSchoolDetailTableViewCell.swift */; };
+		283A5D1F29C15EA100EA5B3B /* HighSchoolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A5D1E29C15EA100EA5B3B /* HighSchoolsViewController.swift */; };
+		283A5D3829C18EF900EA5B3B /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A5D3729C18EF800EA5B3B /* Service.swift */; };
+		977501E9FFFFD9A90CDA665C /* Pods_JMPC_NYC_SchoolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C50F03370D281E96AB495DAA /* Pods_JMPC_NYC_SchoolsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		216B296660DD54756B5AF687 /* Pods-JMPC-NYC-Schools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMPC-NYC-Schools.release.xcconfig"; path = "Target Support Files/Pods-JMPC-NYC-Schools/Pods-JMPC-NYC-Schools.release.xcconfig"; sourceTree = "<group>"; };
 		283A5C8729C1047E00EA5B3B /* JMPC-NYC-Schools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JMPC-NYC-Schools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		283A5C8A29C1047E00EA5B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		283A5C8C29C1047E00EA5B3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +65,24 @@
 		283A5CAB29C1048200EA5B3B /* JMPC-NYC-SchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JMPC-NYC-SchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		283A5CAF29C1048200EA5B3B /* JMPC_NYC_SchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMPC_NYC_SchoolsUITests.swift; sourceTree = "<group>"; };
 		283A5CB129C1048200EA5B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		283A5CC429C1053F00EA5B3B /* RequestsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsManager.swift; sourceTree = "<group>"; };
+		283A5CC929C105D700EA5B3B /* HighSchoolData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchoolData.swift; sourceTree = "<group>"; };
+		283A5CCE29C1072100EA5B3B /* MainFeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeedViewModel.swift; sourceTree = "<group>"; };
+		283A5CF829C1290800EA5B3B /* SchoolInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolInfoTableViewCell.swift; sourceTree = "<group>"; };
+		283A5D0429C12DA000EA5B3B /* HighSchoolDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchoolDetailViewController.swift; sourceTree = "<group>"; };
+		283A5D0929C1322C00EA5B3B /* HighSchoolDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchoolDetailViewModel.swift; sourceTree = "<group>"; };
+		283A5D0E29C132DA00EA5B3B /* HighSchoolDetailRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchoolDetailRecord.swift; sourceTree = "<group>"; };
+		283A5D1329C138D000EA5B3B /* HighSchoolDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchoolDetailTableViewCell.swift; sourceTree = "<group>"; };
+		283A5D1E29C15EA100EA5B3B /* HighSchoolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchoolsViewController.swift; sourceTree = "<group>"; };
+		283A5D3729C18EF800EA5B3B /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		2ACEF3441C8B8D7FF56946E6 /* Pods-JMPC-NYC-Schools-JMPC-NYC-SchoolsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMPC-NYC-Schools-JMPC-NYC-SchoolsUITests.debug.xcconfig"; path = "Target Support Files/Pods-JMPC-NYC-Schools-JMPC-NYC-SchoolsUITests/Pods-JMPC-NYC-Schools-JMPC-NYC-SchoolsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4566960A93B0E4B1EB8BC954 /* Pods-JMPC-NYC-Schools-JMPC-NYC-SchoolsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMPC-NYC-Schools-JMPC-NYC-SchoolsUITests.release.xcconfig"; path = "Target Support Files/Pods-JMPC-NYC-Schools-JMPC-NYC-SchoolsUITests/Pods-JMPC-NYC-Schools-JMPC-NYC-SchoolsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4CB90FCA203279D0E4AC94F9 /* Pods_JMPC_NYC_Schools_JMPC_NYC_SchoolsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMPC_NYC_Schools_JMPC_NYC_SchoolsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A087F63F6109BECFAD35F0 /* Pods-JMPC-NYC-Schools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMPC-NYC-Schools.debug.xcconfig"; path = "Target Support Files/Pods-JMPC-NYC-Schools/Pods-JMPC-NYC-Schools.debug.xcconfig"; sourceTree = "<group>"; };
+		97D1C1140F6120A0C9C33654 /* Pods_JMPC_NYC_Schools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMPC_NYC_Schools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50F03370D281E96AB495DAA /* Pods_JMPC_NYC_SchoolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMPC_NYC_SchoolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62D25B0E2CF59EFB06A265C /* Pods-JMPC-NYC-SchoolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMPC-NYC-SchoolsTests.release.xcconfig"; path = "Target Support Files/Pods-JMPC-NYC-SchoolsTests/Pods-JMPC-NYC-SchoolsTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4720BD589DA1AACB8CF2427 /* Pods-JMPC-NYC-SchoolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMPC-NYC-SchoolsTests.debug.xcconfig"; path = "Target Support Files/Pods-JMPC-NYC-SchoolsTests/Pods-JMPC-NYC-SchoolsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7EA9A78A0F2EB39EA745DF /* Pods_JMPC_NYC_Schools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				977501E9FFFFD9A90CDA665C /* Pods_JMPC_NYC_SchoolsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +106,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A32D64D581525F3FABB6DA /* Pods_JMPC_NYC_Schools_JMPC_NYC_SchoolsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2663BDE94582A5456ECA7571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97D1C1140F6120A0C9C33654 /* Pods_JMPC_NYC_Schools.framework */,
+				4CB90FCA203279D0E4AC94F9 /* Pods_JMPC_NYC_Schools_JMPC_NYC_SchoolsUITests.framework */,
+				C50F03370D281E96AB495DAA /* Pods_JMPC_NYC_SchoolsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		283A5C7E29C1047E00EA5B3B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +130,8 @@
 				283A5CA329C1048200EA5B3B /* JMPC-NYC-SchoolsTests */,
 				283A5CAE29C1048200EA5B3B /* JMPC-NYC-SchoolsUITests */,
 				283A5C8829C1047E00EA5B3B /* Products */,
+				94E40D0F56453F212348D913 /* Pods */,
+				2663BDE94582A5456ECA7571 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +148,12 @@
 		283A5C8929C1047E00EA5B3B /* JMPC-NYC-Schools */ = {
 			isa = PBXGroup;
 			children = (
+				283A5D3629C18EDC00EA5B3B /* Resources */,
+				283A5D2F29C1620400EA5B3B /* Intro */,
+				283A5CFD29C12D2A00EA5B3B /* HighSchool Detail */,
+				283A5CC229C104D600EA5B3B /* HighSchools */,
 				283A5C8A29C1047E00EA5B3B /* AppDelegate.swift */,
 				283A5C8C29C1047E00EA5B3B /* SceneDelegate.swift */,
-				283A5C8E29C1047E00EA5B3B /* ViewController.swift */,
 				283A5C9029C1047E00EA5B3B /* Main.storyboard */,
 				283A5C9629C1048100EA5B3B /* Assets.xcassets */,
 				283A5C9829C1048100EA5B3B /* LaunchScreen.storyboard */,
@@ -131,6 +181,106 @@
 			path = "JMPC-NYC-SchoolsUITests";
 			sourceTree = "<group>";
 		};
+		283A5CC029C104BB00EA5B3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				283A5CF829C1290800EA5B3B /* SchoolInfoTableViewCell.swift */,
+				283A5D1E29C15EA100EA5B3B /* HighSchoolsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		283A5CC129C104C400EA5B3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				283A5CC929C105D700EA5B3B /* HighSchoolData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		283A5CC229C104D600EA5B3B /* HighSchools */ = {
+			isa = PBXGroup;
+			children = (
+				283A5CC329C104EF00EA5B3B /* ViewModel */,
+				283A5CC029C104BB00EA5B3B /* View */,
+				283A5CC129C104C400EA5B3B /* Model */,
+			);
+			path = HighSchools;
+			sourceTree = "<group>";
+		};
+		283A5CC329C104EF00EA5B3B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				283A5CCE29C1072100EA5B3B /* MainFeedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		283A5CFD29C12D2A00EA5B3B /* HighSchool Detail */ = {
+			isa = PBXGroup;
+			children = (
+				283A5D1D29C15E5800EA5B3B /* Model */,
+				283A5D1C29C15E4B00EA5B3B /* ViewModel */,
+				283A5D1B29C15E3D00EA5B3B /* View */,
+			);
+			path = "HighSchool Detail";
+			sourceTree = "<group>";
+		};
+		283A5D1B29C15E3D00EA5B3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				283A5D0429C12DA000EA5B3B /* HighSchoolDetailViewController.swift */,
+				283A5D1329C138D000EA5B3B /* HighSchoolDetailTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		283A5D1C29C15E4B00EA5B3B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				283A5D0929C1322C00EA5B3B /* HighSchoolDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		283A5D1D29C15E5800EA5B3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				283A5D0E29C132DA00EA5B3B /* HighSchoolDetailRecord.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		283A5D2F29C1620400EA5B3B /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				283A5C8E29C1047E00EA5B3B /* ViewController.swift */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		283A5D3629C18EDC00EA5B3B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				283A5CC429C1053F00EA5B3B /* RequestsManager.swift */,
+				283A5D3729C18EF800EA5B3B /* Service.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		94E40D0F56453F212348D913 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96A087F63F6109BECFAD35F0 /* Pods-JMPC-NYC-Schools.debug.xcconfig */,
+				216B296660DD54756B5AF687 /* Pods-JMPC-NYC-Schools.release.xcconfig */,
+				2ACEF3441C8B8D7FF56946E6 /* Pods-JMPC-NYC-Schools-JMPC-NYC-SchoolsUITests.debug.xcconfig */,
+				4566960A93B0E4B1EB8BC954 /* Pods-JMPC-NYC-Schools-JMPC-NYC-SchoolsUITests.release.xcconfig */,
+				E4720BD589DA1AACB8CF2427 /* Pods-JMPC-NYC-SchoolsTests.debug.xcconfig */,
+				D62D25B0E2CF59EFB06A265C /* Pods-JMPC-NYC-SchoolsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 283A5CB429C1048200EA5B3B /* Build configuration list for PBXNativeTarget "JMPC-NYC-Schools" */;
 			buildPhases = (
+				464B9A1556B19F9ACAA18337 /* [CP] Check Pods Manifest.lock */,
 				283A5C8329C1047E00EA5B3B /* Sources */,
 				283A5C8429C1047E00EA5B3B /* Frameworks */,
 				283A5C8529C1047E00EA5B3B /* Resources */,
+				E1F8D86D88EABF5636A9192A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +307,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 283A5CB729C1048200EA5B3B /* Build configuration list for PBXNativeTarget "JMPC-NYC-SchoolsTests" */;
 			buildPhases = (
+				15EAB9C469B9B297D0AD5902 /* [CP] Check Pods Manifest.lock */,
 				283A5C9C29C1048200EA5B3B /* Sources */,
 				283A5C9D29C1048200EA5B3B /* Frameworks */,
 				283A5C9E29C1048200EA5B3B /* Resources */,
@@ -173,9 +326,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 283A5CBA29C1048200EA5B3B /* Build configuration list for PBXNativeTarget "JMPC-NYC-SchoolsUITests" */;
 			buildPhases = (
+				EBB010D0D4FE3572A1E1379E /* [CP] Check Pods Manifest.lock */,
 				283A5CA729C1048200EA5B3B /* Sources */,
 				283A5CA829C1048200EA5B3B /* Frameworks */,
 				283A5CA929C1048200EA5B3B /* Resources */,
+				F5ACBE3D277AB55159822B50 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,15 +411,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15EAB9C469B9B297D0AD5902 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JMPC-NYC-SchoolsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		464B9A1556B19F9ACAA18337 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JMPC-NYC-Schools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1F8D86D88EABF5636A9192A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JMPC-NYC-Schools/Pods-JMPC-NYC-Schools-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JMPC-NYC-Schools/Pods-JMPC-NYC-Schools-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JMPC-NYC-Schools/Pods-JMPC-NYC-Schools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBB010D0D4FE3572A1E1379E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JMPC-NYC-Schools-JMPC-NYC-SchoolsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5ACBE3D277AB55159822B50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JMPC-NYC-Schools-JMPC-NYC-SchoolsUITests/Pods-JMPC-NYC-Schools-JMPC-NYC-SchoolsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JMPC-NYC-Schools-JMPC-NYC-SchoolsUITests/Pods-JMPC-NYC-Schools-JMPC-NYC-SchoolsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JMPC-NYC-Schools-JMPC-NYC-SchoolsUITests/Pods-JMPC-NYC-Schools-JMPC-NYC-SchoolsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		283A5C8329C1047E00EA5B3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283A5D1429C138D000EA5B3B /* HighSchoolDetailTableViewCell.swift in Sources */,
+				283A5D3829C18EF900EA5B3B /* Service.swift in Sources */,
 				283A5C8F29C1047E00EA5B3B /* ViewController.swift in Sources */,
+				283A5D0F29C132DA00EA5B3B /* HighSchoolDetailRecord.swift in Sources */,
+				283A5CC529C1053F00EA5B3B /* RequestsManager.swift in Sources */,
 				283A5C8B29C1047E00EA5B3B /* AppDelegate.swift in Sources */,
 				283A5C9529C1047E00EA5B3B /* JMPC_NYC_Schools.xcdatamodeld in Sources */,
 				283A5C8D29C1047E00EA5B3B /* SceneDelegate.swift in Sources */,
+				283A5CCF29C1072100EA5B3B /* MainFeedViewModel.swift in Sources */,
+				283A5D1F29C15EA100EA5B3B /* HighSchoolsViewController.swift in Sources */,
+				283A5CCA29C105D700EA5B3B /* HighSchoolData.swift in Sources */,
+				283A5D0A29C1322C00EA5B3B /* HighSchoolDetailViewModel.swift in Sources */,
+				283A5D0529C12DA000EA5B3B /* HighSchoolDetailViewController.swift in Sources */,
+				283A5CF929C1290800EA5B3B /* SchoolInfoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +705,7 @@
 		};
 		283A5CB529C1048200EA5B3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96A087F63F6109BECFAD35F0 /* Pods-JMPC-NYC-Schools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +725,7 @@
 		};
 		283A5CB629C1048200EA5B3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 216B296660DD54756B5AF687 /* Pods-JMPC-NYC-Schools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +745,7 @@
 		};
 		283A5CB829C1048200EA5B3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4720BD589DA1AACB8CF2427 /* Pods-JMPC-NYC-SchoolsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +768,7 @@
 		};
 		283A5CB929C1048200EA5B3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D62D25B0E2CF59EFB06A265C /* Pods-JMPC-NYC-SchoolsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +791,7 @@
 		};
 		283A5CBB29C1048200EA5B3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ACEF3441C8B8D7FF56946E6 /* Pods-JMPC-NYC-Schools-JMPC-NYC-SchoolsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +812,7 @@
 		};
 		283A5CBC29C1048200EA5B3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4566960A93B0E4B1EB8BC954 /* Pods-JMPC-NYC-Schools-JMPC-NYC-SchoolsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

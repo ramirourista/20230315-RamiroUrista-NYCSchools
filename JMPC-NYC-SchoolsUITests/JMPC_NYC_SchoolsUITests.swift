@@ -6,9 +6,28 @@
 //
 
 import XCTest
+import RxSwift
+
+@testable import JMPC_NYC_Schools
 
 class JMPC_NYC_SchoolsUITests: XCTestCase {
 
+    private var mockRequestsManager: MockRequestsManager!
+    private var viewModel: MainFeedViewModel!
+    
+    override func setUp() {
+        super.setUp()
+        mockRequestsManager = MockRequestsManager()
+        viewModel = MainFeedViewModel(requestsManager: mockRequestsManager)
+    }
+
+    override func tearDown() {
+        //sut = nil
+        mockRequestsManager = nil
+        super.tearDown()
+    }
+    
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
 
@@ -40,3 +59,19 @@ class JMPC_NYC_SchoolsUITests: XCTestCase {
         }
     }
 }
+
+class MockRequestsManager: RequestsManagerProtocol {
+    func fetchHighSchoolDetailRecords(with url: URL) -> Single<[HighSchoolDetailRecord]> {
+        .just([HighSchoolDetailRecord()])
+    }
+    
+    func fetchHighSchoolRecords(with url: URL) -> Single<[HighSchoolRecord]> {
+        let highSchoolRecord = [HighSchoolRecord(dbn: "ABC", city: "Manhatan"),
+                                HighSchoolRecord(dbn: "CDE", city: "Chicago")]
+        
+        return .just(highSchoolRecord)
+    }
+    
+    
+}
+
